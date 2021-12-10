@@ -1,0 +1,60 @@
+.action-btn {
+    line-height: 18px !important;
+}
+
+.addqwrapper {
+    margin-top: 32px !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled:hover {
+    cursor: no-drop;
+}
+
+.loader {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 79%;
+    height: 100vh;
+    z-index: 10;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.75) 166%);
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.3s linear 0s;
+}
+
+.loader img {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    /* left: 25%; */
+    /* right: 25%; */
+}
+
+.loader .spin {
+    display: block;
+    z-index: 20;
+}
+
+.loader .spin h4 {
+    position: absolute !important;
+    bottom: 32%;
+    color: #fff;
+    left: 29%;
+    right: 25%;
+    display: block;
+    text-transform: uppercase;
+    z-index: 99999;
+}
+
+.loading-done {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+}
+
